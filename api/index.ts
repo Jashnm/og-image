@@ -12,6 +12,13 @@ export default async function handler(
 ) {
   try {
     const parsedReq = parseRequest(req);
+    parsedReq.images.length = 0;
+    parsedReq.images.push(
+      "https://user-images.githubusercontent.com/50929873/123553493-093ea280-d799-11eb-9685-745d92cfbe17.png"
+    );
+
+    // parsedReq.fontSize = "6.6rem";
+
     const html = getHtml(parsedReq);
     if (isHtmlDebug) {
       res.setHeader("Content-Type", "text/html");

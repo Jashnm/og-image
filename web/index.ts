@@ -172,9 +172,9 @@ const imageDarkOptions: DropdownOption[] = [
       "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg"
   },
   {
-    text: "Next.js",
+    text: "J Avatar",
     value:
-      "https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg"
+      "https://user-images.githubusercontent.com/50929873/123553493-093ea280-d799-11eb-9685-745d92cfbe17.png"
   },
   {
     text: "Hyper",
