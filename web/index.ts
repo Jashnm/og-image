@@ -235,7 +235,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
     theme = "light",
     md = true,
     text = "**Hello** World",
-    author = "Author name",
+    author = "Jashn Maloo",
     images = [imageLightOptions[0].value],
     widths = [],
     heights = [],
@@ -320,7 +320,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
           })
         }),
         H(Field, {
-          label: "Jashn Maloo",
+          label: "Author Name",
           input: H(TextInput, {
             value: author,
             oninput: (val: string) => {
