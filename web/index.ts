@@ -252,6 +252,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
   url.searchParams.append("theme", theme);
   url.searchParams.append("md", mdValue);
   url.searchParams.append("fontSize", fontSize);
+  url.searchParams.append("author", author);
   for (let image of images) {
     url.searchParams.append("images", image);
   }
@@ -319,7 +320,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
           })
         }),
         H(Field, {
-          label: "Author Name",
+          label: "Jashn Maloo",
           input: H(TextInput, {
             value: author,
             oninput: (val: string) => {
